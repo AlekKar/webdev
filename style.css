@@ -1,0 +1,854 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0% auto;
+    }
+
+
+.header {
+    position: absolute;
+    height: 95px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+}
+
+.About {
+    position: absolute;
+    width: 38px;
+    height: 20px;
+    left: calc(50% - 38px/2 - 279px);
+    top: 38px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+
+.Syllabus {
+    
+    position: absolute;
+    width: 53px;
+    height: 20px;
+    left: calc(50% - 53px/2 - 148.5px);
+    top: 38px;
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+
+
+.logo {
+    position: absolute;
+    width: 44px;
+    height: 45px;
+    left: calc(50% - 44px/2);
+    top: 25px;
+}
+
+.Projects {
+    position: absolute;
+    width: 52px;
+    height: 20px;
+    left: calc(50% - 52px/2 + 148px);
+    top: 38px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%; 
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+
+
+.FAQ {
+    position: absolute;
+    width: 26px;
+    height: 20px;
+    left: calc(50% - 26px/2 + 272px);
+    top: 38px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+
+.wrapper {
+    position: absolute;
+    height: 671px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: 0 auto;
+}
+
+.life {
+    position: absolute;
+    
+    height: 75px;
+    padding-left: 700px;
+    bottom: 402px;
+    width: 100%;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.Whatever {
+    position: absolute;
+    width: 504px;
+    height: 50px;
+    left: calc(50% - 504px/2);
+    top: calc(50% - 50px/2 - 21.5px);
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+
+button.knopka {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 47px;
+    
+    position: absolute;
+    width: 184px;
+    height: 46px;
+    left: calc(50% - 184px/2);
+    top: calc(50% - 46px/2 + 56.5px);
+    
+    background: #00AFDB;
+}
+
+button.knopka:hover {
+    background: #009CC2;
+}
+
+
+
+.text {
+    position: absolute;
+    width: 90px;
+    height: 16px;
+    left: calc(50% - 90px/2);
+    top: calc(50% - 16px/2);
+    width: 100%;
+    margin: 0 auto;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+ul.social {
+    position: absolute;
+    width: 170px;
+    height: 20px;
+    left: calc(50% - 170px/2);
+    bottom: 90px;
+    margin: 0;
+    padding: 4px;
+}
+ul.social li {
+    display: inline;
+    margin-right: 13px; 
+    border: 1px; 
+    padding: 3px; 
+}
+
+.yourlife {
+    position: absolute;
+    width: 1600px;
+    height: 842px;
+    left: 0px;
+    top: 744px;
+}
+
+.image1 {
+    position: absolute;
+    width: 407px;
+    height: 582px;
+    left: 924px;
+    top: 120px;
+    
+}
+
+.youPab {
+    position: absolute;
+    width: 407px;
+    height: 233px;
+    left: 269px;
+    top: 295px;
+}
+
+.pab {
+    position: absolute;
+    width: 367px;
+    height: 57px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 32px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    
+    color: #373737;
+}
+
+.text1 {
+    position: absolute;
+    width: 407px;
+    height: 80px;
+    left: 0px;
+    top: 77px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;    
+    
+    color: #4E4E4E;
+}
+
+
+button.knopka1 {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 47px;
+    
+    position: absolute;
+    width: 184px;
+    height: 46px;
+    left: 0px;
+    top: 110px;
+    
+    background: #00AFDB;
+}
+
+button.knopka1:hover {
+    background: #009CC2;
+}
+
+.gur { 
+    position: absolute;
+    width: 1600px;
+    height: 504px;
+    left: 0px;
+    top: 1586px;
+    
+    
+}
+
+.cony {
+    position: absolute;
+    width: 1600px;
+    height: 504px;
+    left: 0px;
+    top: 0px;
+    
+    background: #F5F6F7;
+}
+
+.stider {
+    position: absolute;
+    width: 894px;
+    height: 244px;
+    left: 706px;
+    top: 120px;
+    overflow-x: scroll; 
+}
+
+.stider {
+    position: absolute;
+    width: 407px;
+    height: 244px;
+    left: 1580px;
+    top: 1706px;
+    width: 20px;
+    overflow: hidden;
+}
+
+.stider1 {
+    position: absolute;
+    width: 894px;
+    height: 244px;
+    left: 1143px;
+    top: 1706px;
+
+}
+
+.stider2 {
+    position: absolute;
+    width: 894px;
+    height: 244px;
+    left: 706px;
+    top: 1706px;
+
+}
+
+.default{
+    position: absolute;
+    width: 407px;
+    height: 582px;
+    left: 1248px;
+    top: 1668px;
+    bottom: 90px;
+    margin: 0;
+    padding: 4px;
+}
+
+.user {
+    position: absolute;
+    width: 298px;
+    height: 175px;
+    left: 269px;
+    top: 1741px;
+}
+
+.userpic {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 127px;
+    top: 0px;
+}
+
+.text2 {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    left: calc(50% - 160px/2);
+    top: 69px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 auto;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    
+    color: #373737;
+
+}
+
+.text3 {
+    position: absolute;
+    width: 298px;
+    height: 80px;
+    left: calc(50% - 298px/2);
+    top: 95px;
+    
+    /* body-14-reg */
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    /* or 20px */
+    
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.7px;
+    text-align: center;
+    
+    color: #4E4E4E;
+}
+
+.Implement {
+    position: absolute;
+    width: 1600px;
+    height: 842px;
+    left: 0px;
+    top: 2090px;
+}
+
+.content {
+    position: absolute;
+    width: 407px;
+    height: 582px;
+    left: 269px;
+    top: 120px;
+
+}
+
+.content-block {
+    position: absolute;
+    width: 407px;
+    height: 184px;
+    left: 815px;
+    top: 319px;
+}
+
+.text4 {
+    position: absolute;
+    width: 100%;
+    height: 28px;
+    left: 0px;
+    top: 0px;
+    margin: 0 auto;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+    color: #373737;
+}
+
+.text5 {
+    position: absolute;
+    width: 407px;
+    height: 60px;
+    left: 0px;
+    top: 48px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.6px;
+    font-size: 14px;
+    line-height: 140%;
+    
+    color: #4E4E4E;
+}
+
+.signUp {
+    position: absolute;
+    width: 1600px;
+    height: 524px;
+    left: 0px;
+    top: 2932px;
+}
+
+
+
+.content-image {
+    position: relative;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 0px;
+    overflow: hide;
+}
+
+.form {
+    position: absolute;
+    width: 406px;
+    height: 104px;
+    left: 597px;
+    top: 200px;
+}
+
+.text6 {
+    position: absolute;
+    width: 100%;
+    height: 28px;
+    left: 13px;
+    top: 0px;
+    margin: 0 auto;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+    
+    border: 1px solid #ccc;
+    
+    font-family: inherit;
+    font-size: 28px;
+  }
+
+.imail {
+    position: absolute;
+    width: 316px;
+    height: 46px;
+    left: 0px;
+    top: 58px;
+    
+}
+
+button.knopka2 {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    
+    position: absolute;
+    width: 66px;
+    height: 50px;
+    left: 937px;
+    top: 260px; 
+
+    background: #00AFDB;
+}
+
+button.knopka2:hover {
+    background: #009CC2;
+}
+
+
+
+
+
+.download {
+    position: absolute;
+    width: 1600px;
+    height: 464px;
+    left: 0px;
+    top: 3456px;
+}
+
+.text7 {
+    position: absolute;
+    width: 100%;
+    height: 28px;
+    left: 675px;
+    top: 120px;
+    margin: 0 auto;
+    
+    /* h2-24-bold */
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+    color: #373737;
+}
+
+.machine {
+    position: absolute;
+    width: 480px;
+    height: 40px;
+    left: 560px;
+    top: 168px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    text-align: center;
+    
+    color: #4E4E4E;
+}
+
+
+button.knopka3 {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 47px;
+    
+    position: absolute;
+    width: 125px;
+    height: 46px;
+    left: 599px;
+    top: 238px;
+    
+    background: #00AFDB;
+}
+
+button.knopka3:hover {
+    background: #009CC2;
+}
+
+.btn {
+    
+    display: flex;
+    flex-direction: row;
+    padding: 15px 47px;
+    
+    
+    
+   
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 10px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 0px;
+    text-transform: uppercase;;
+    color: #FFFFFF;
+    
+    
+    position: absolute;
+    width: 180px;
+    height: 46px;
+    left: 815px;
+    top: 457px;
+    background: #00AFDB;
+}
+.btn:hover {
+    background: #009CC2;}
+
+
+button.knopka4 {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 47px;
+
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 10px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 0px;
+    text-transform: uppercase;;
+    color: #FFFFFF;
+    
+    position: absolute;
+    width: 125px;
+    height: 46px;
+    left: 815px;
+    top: 238px;
+    
+    background: #00AFDB;
+}
+
+button.knopka4:hover {
+    background: #009CC2;
+}
+
+.apple {
+    display: flex;
+    flex-direction: row;
+    padding: 16px 47px;
+   
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    left: 0px;
+    top: 0px;
+    margin: 0 auto;
+}
+
+.play {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    left: 0px;
+    top: 0px;
+}
+
+
+
+.text8 {
+    position: absolute;
+    height: 0px;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    margin: 0 auto;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+
+
+
+.text9 {
+    position: absolute;
+    height: 0px;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    margin: 0 auto;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height:30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.app-icon {
+    
+    position: static;
+    width: 59px;
+    height: 46px;
+    left: 150px;
+    top: 5px;
+    
+    background: #009CC2;
+    border-radius: 0px;
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 0px 0px;
+
+}
+
+
+
+.download_btn {
+    
+    display: flex;
+    flex-direction: row;
+    padding: 15px 47px;
+    
+    
+    
+   
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 10px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 0px;
+    text-transform: uppercase;;
+    color: #FFFFFF;
+    
+    
+    
+    position: absolute;
+    width: 125px;
+    height: 46px;
+    left: 815px;
+    top: 238px;
+    background: #00AFDB;
+}
+.btn:hover {
+    background: #009CC2;}
